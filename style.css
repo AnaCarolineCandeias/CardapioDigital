@@ -1,0 +1,1306 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Kalam', cursive;
+}
+
+html {
+width: 100vw;
+height: 100vh;
+font-size: 62.5%;
+overflow-x: hidden; 
+}
+
+/*Menu*/
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(196, 255, 209);
+    position: fixed;
+    padding-left: 30rem;
+}
+
+.logo {
+width: 70px;
+height: auto;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.logo h3 {
+    color: black;
+    font-size: 1.6rem;
+    }
+
+.logo img {
+     width: 100%;
+     height: 100%;
+}
+
+.content .list-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover {
+    background-color: rgb(227, 235, 225) ;
+    border-bottom: 4px solid rgb(18, 104, 7);
+    color: rgb(18, 104, 7);
+}
+
+/*first-section*/
+
+.first-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(https://images.unsplash.com/photo-1604085804781-04a7d1adba36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGhlYWx0aCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.first section.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1 {
+    font-size: 4rem;
+    color: aqua;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+.first-section h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform:capitalize;
+    margin-bottom: 3rem;
+    color: aqua;
+}
+
+.btn button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+    }
+
+.btn button:hover {
+    border: 1px solid rgb(18, 104, 7);
+    background-color: transparent;
+    color: rgb(196, 255, 209);
+}
+
+.btn {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+}
+
+.first-section footer{
+    position:absolute;
+    bottom: 0;
+    height: 2.5rem;
+    }
+
+/*Sobre Nós*/
+
+.sobre-nos {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(196, 255, 209);
+}
+
+.main {
+    display: flex;
+    justify-content:space-between;
+}
+
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentsobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+
+/*Contatos*/
+
+.contatos {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 5rem;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(196, 255, 209);
+    
+}
+
+.maincontatos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;       
+}
+
+.contentcontatos {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentcontatos h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentcontatos p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+.btncontatos button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+}
+
+.btncontatos button:hover {
+    border: 1px solid rgb(18, 104, 7);
+    background-color: transparent;
+    color: rgb(196, 255, 209);
+}
+
+.btncontatos {
+    width: 480px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 15%;
+}
+
+/*Localização*/
+
+.localizacao {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.localizacao img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(196, 255, 209);
+}
+
+.mainlocalizacao {
+    display: flex;
+    justify-content:space-between;
+}
+
+.contentlocalizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentlocalizacao h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentlocalizacao p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+/*Redes Sociais*/
+
+.redessociais {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainredes {
+    display: flex;
+    justify-content:space-between;
+}
+
+.contentredessociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentredessociais h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentredessociais p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 10rem;
+    margin-left: 10rem;  
+    margin-bottom: 5rem; 
+}
+
+/*Redes Sociais/Nos siga no instagram*/
+.slider-insta {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-insta {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-insta input {
+    display: none;
+}
+
+.slide-insta{
+    width: 25%;
+    position: relative;
+}
+
+.slide-insta img {
+    width: 800px;
+    height: 450px;
+}
+
+.manual-nav-insta {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content:center;
+}
+
+.manualinsta-btn {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manualinsta-btn:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radioinsta1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radioinsta2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radioinsta3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.btnredesinsta {
+    width: 480px;
+    display: flex;
+    justify-content:center;
+}
+
+.btnredesinsta button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+}
+
+.btnredesinsta button:hover {
+    border: 1px solid rgb(18, 104, 7);
+    background-color: transparent;
+    color: rgb(196, 255, 209);
+}
+
+/*Redes Sociais/Nos acompanhe no facebook*/
+.slider-face {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-face {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-face input {
+    display: none;
+}
+
+.slideface{
+    width: 25%;
+    position: relative;
+}
+
+.slideface img {
+    width: 800px;
+    height: 450px;
+}
+
+.manual-nav-face {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content:center;
+}
+
+.manualface-btn {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manualface-btn:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radioface1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radioface2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radioface3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.btnredesface {
+    width: 480px;
+    display: flex;
+    justify-content:center;
+}
+
+.btnredesface button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+}
+
+.btnredesface button:hover {
+    border: 1px solid rgb(18, 104, 7);
+    background-color: transparent;
+    color: rgb(196, 255, 209);
+}
+
+/*Delivery*/
+
+.delivery {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid rgb(196, 255, 209);
+}
+
+.maindelivery {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+}
+
+.contentdelivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentdelivery h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentdelivery p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+.btn-delivery {
+    width: 480px;
+    display: flex;
+   justify-content:center;
+}
+    
+.btn-delivery button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+}
+    
+.btn-delivery button:hover {
+    border: 1px solid rgb(18, 104, 7);
+    background-color: transparent;
+    color: rgb(196, 255, 209);
+}
+
+
+
+/*Página Final*/
+
+.paginafinal {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginafinal li a {
+    margin-right: 1rem;
+}
+
+.paginafinal div {
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.paginafinal div:hover {
+    color: rgb(18, 104, 7);
+}
+
+.list-horario {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.list-horario h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.list-horario {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.paginafinal .list-horario li a{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.paginafinal .list-horario li a:hover {
+    color: rgb(18, 104, 7);
+}
+
+.paginafinal .list-menufinal li a{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.paginafinal .list-menufinal li a:hover {
+    color: rgb(18, 104, 7);
+}
+
+.paginafinal .list-faleconosco li a{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.paginafinal .list-faleconosco li a:hover {
+    color: rgb(18, 104, 7);
+}
+
+.paginafinal .acompanhe-redes li a{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.paginafinal .acompanhe-redes li a:hover {
+    color: rgb(18, 104, 7);
+}
+
+.list-menufinal {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.list-menufinal h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.list-menufinal {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.list-faleconosco {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.list-faleconosco h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.list-faleconosco {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.acompanhe-redes {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.acompanhe-redes h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.acompanhe-redes {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.footer {
+    height: 25px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*PagMenu*/
+
+.pagmenu {
+    background-color: rgb(34, 34, 34);
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(https://static.vecteezy.com/ti/fotos-gratis/p1/773234-prato-de-comida-saudavel-foto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pagmenu h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.pagmenu p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+.btnmenu {
+    width: 230px;
+    height: 60px;
+    display: table-cell;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: none;    
+    border-radius: 10px;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 50%;
+    background-color: rgb(196, 255, 209);
+    color: black; 
+    transition: 400ms ease-in;
+}
+
+.btnmenu:hover {
+    border: 1px solid rgb(18, 104, 7);
+    background-color: transparent;
+    color: rgb(196, 255, 209);
+}
+
+.btnmenu a {
+    text-decoration: none;
+    color: black;  
+ }
+
+ .btnmenu a:hover{
+    color: rgb(196, 255, 209);
+ }
+
+ /*MenuFitHub-Cardápio*/
+
+.cardapio {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(https://img.freepik.com/fotos-premium/ingredientes-para-fundo-de-alimentos-saudaveis-conceito-de-comida-saudavel-na-pedra-escura_35641-463.jpg?w=2000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardapio h2 {
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cardapio h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform:capitalize;
+    margin-bottom: 3rem;
+    color: aqua;
+}
+
+.itens-cardapio {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.itens-cardapio .info {
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+ 
+}
+
+.itens-cardapio .info h3 {
+    font-size: 1.8rem;
+    text-transform:none;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.itens-cardapio .info h4 {
+    font-size: 1.4rem;
+    text-transform: none;
+    margin-bottom: 0.6rem;
+    display:-ms-inline-grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+    
+}
+
+.itens-cardapio .info h4 span{
+    font-size: 1.6rem;
+    color: rgb(18, 104, 7);
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+
+.itens-cardapio .info button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 50;
+    margin-top: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+}
+
+.slider-cafe {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-cafe {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-cafe input {
+    display: none;
+}
+
+.slide-cafe{
+    width: 25%;
+    position: relative;
+}
+
+.slide-cafe img {
+    width: 500px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radiocafe1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radiocafe2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radiocafe3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radiocafe4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radiocafe5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.slider-almoco {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-almoco {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-almoco input {
+    display: none;
+}
+
+.slide-almoco{
+    width: 25%;
+    position: relative;
+}
+
+.slide-almoco img {
+    width: 500px;
+}
+
+.manual-navigationalmoco {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btnalmoco {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manual-btnalmoco:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radioalmoco1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radioalmoco2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radioalmoco3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radioalmoco4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radioalmoco5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.slider-jantar {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-jantar {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-jantar input {
+    display: none;
+}
+
+.slide-jantar{
+    width: 25%;
+    position: relative;
+}
+
+.slide-jantar img {
+    width: 500px;
+}
+
+.manual-navigationjantar {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btnjantar {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manual-btnjantar:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radiojantar1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radiojantar2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radiojantar3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radiojantar4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radiojantar5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.slider-lanche {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-lanche {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-lanche input {
+    display: none;
+}
+
+.slide-lanche{
+    width: 25%;
+    position: relative;
+}
+
+.slide-lanche img {
+    width: 500px;
+}
+
+.manual-navigationlanche {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btnlanche {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manual-btnlanche:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radiolanche1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radiolanche2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radiolanche3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radiolanche4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radiolanche5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.slider-sobremesa {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides-sobremesa {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides-sobremesa input {
+    display: none;
+}
+
+.slide-sobremesa{
+    width: 25%;
+    position: relative;
+}
+
+.slide-sobremesa img {
+    width: 500px;
+}
+
+.manual-navigationsobremesa {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btnsobremesa {
+    border: 2px solid rgb(18, 104, 7);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin-right: 20px;
+}
+
+.manual-btnsobremesa:hover {
+    background-color: rgb(196, 255, 209);
+}
+
+#radiosobremesa1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radiosobremesa2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radiosobremesa3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radiosobremesa4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radiosobremesa5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 5rem;
+}
+
+.name {
+    font-size: 25px;
+    font-weight:bold;
+    color: rgb(18, 104, 7);   
+}
+
+.cardapio .info button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: capitalize;    
+    border-radius: 10px;
+    font-weight: 550;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: rgb(196, 255, 209);
+    color: black;
+    transition: 400ms ease-in;
+}
+
+.cardapio .info button:hover{
+    color: rgb(196,255,209);
+    background-color: transparent;
+    border: 1px solid rgb(18, 104, 7);
+}
+
+.voltar .btnvoltar {
+    width: 230px;
+    height: 60px;
+    justify-content: center;
+    display: table-cell;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: rgb(196,255,209);
+    transition: 400ms ease-in; 
+    margin-top: 40px;
+}
+
+.voltar .btnvoltar:hover{
+    color: rgb(196,255,209);
+    background-color: transparent;
+    border: 1px solid rgb(18, 104, 7);
+}
+
+.btnvoltar a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .btnvoltar a :hover{
+    color: rgb(196, 255, 209);
+ }
