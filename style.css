@@ -27,6 +27,7 @@ overflow-x: hidden;
     background-color: rgb(196, 255, 209);
     position: fixed;
     padding-left: 30rem;
+    z-index: 10;
 }
 
 .logo {
@@ -1304,3 +1305,92 @@ align-items: center;
  .btnvoltar a :hover{
     color: rgb(196, 255, 209);
  }
+
+ @media (max-width: 1200px){
+    .main{
+        display: block;
+    } 
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px;
+    }
+}
+
+ @media (max-width: 992px){
+    html{
+        font-size: 50%;
+    }
+    .sobre-nos img{
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    
+    .itens-cardapio img{
+        width: 500px;
+        height: 300px;
+        margin-right: 30px;
+     
+    }
+
+
+ }
+
+ @media (max-width: 768px){
+    html{
+        font-size: 45%;  
+    }
+
+    .sobre-nos img{
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    
+    .itens-cardapio img{
+        width: 400px;
+        height: 350px;
+        margin-right: 30px;
+     
+    }
+
+    .maincontatos img{
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+
+ }
+
+@media (max-width: 600px){
+ .conteudo-principal h1{
+    width: 500px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.conteudo-principal h1{
+    width: 300px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sobre-nos img{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.itens-cardapio img{
+    width: 250px;
+    height: 200px;
+    margin-right: 30px;
+ 
+}
+
+
+}
